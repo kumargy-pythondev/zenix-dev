@@ -6,6 +6,7 @@ import { CoinDetailsComponent } from './pages/coin-details/coin-details.componen
 import { PortofolioComponent } from './pages/portofolio/portofolio.component';
 import { MarketCapitalComponent } from './pages/market-capital/market-capital.component';
 import { TranasactionsComponent } from './pages/tranasactions/tranasactions.component';
+import { TradestationComponent } from './pages/tradestation/tradestation.component';
 import { ForgotPasswordComponent } from './pages/authentication/forgot-password/forgot-password.component';
 import { LockScreenComponent } from './pages/authentication/lock-screen/lock-screen.component';
 import { LoginComponent } from './pages/authentication/login/login.component';
@@ -138,6 +139,7 @@ export const routes: Routes = [
       { path: 'index', component: DashboardComponent },
       { path: 'my-wallets', component: MyWalletsComponent },
       { path: 'tranasactions', component: TranasactionsComponent },
+      { path: 'tradestation', component: TradestationComponent },
       { path: 'coin-details', component: CoinDetailsComponent },
       { path: 'portofolio', component: PortofolioComponent },
       { path: 'market-capital', component: MarketCapitalComponent },
